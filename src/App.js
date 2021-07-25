@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState } from "react";
 import "./App.css";
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from "reactstrap";
+import { Modal } from "reactstrap";
 var dateFormat = require("dateformat");
 var now = new Date();
 require("dotenv").config();
@@ -179,3 +179,5 @@ export default App;
 // <ModalBody className="baady text-white display-3">
 //           City not found!
 //         </ModalBody>
+
+// Button,, ModalHeader, ModalBody, ModalFooter
